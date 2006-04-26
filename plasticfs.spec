@@ -1,4 +1,4 @@
-Summary:	the Plastic File System
+Summary:	The Plastic File System
 Summary(pl):	Plastyczny system plików
 Name:		plasticfs
 Version:	1.9
@@ -17,6 +17,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Plastic File System is an LD_PRELOAD module for manipulating what
 the file system looks like for programs. This allows virtual file
 systems to exist in user space, without kernel hacks or modules.
+
+%description -l pl
+Plastic File System to wczytywany przez LD_PRELOAD modu³ do
+manipulowania wygl±dem systemu plików dla programów. Pozwala na
+istnienie wirtualnych systemów plików w przestrzeni u¿ytkownika, bez
+¿adnych modyfikacji w j±drze ani modu³ów j±dra.
 
 %package devel
 Summary:	Header files for plasticfs library
@@ -59,6 +65,9 @@ rm $RPM_BUILD_ROOT%{_mandir}/man1/plasticfs_license.1*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post	-p /sbin/ldconfig
+%postun	-p /sbin/ldconfig
 
 %files
 %defattr(644,root,root,755)
