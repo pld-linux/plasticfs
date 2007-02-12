@@ -1,5 +1,5 @@
 Summary:	The Plastic File System
-Summary(pl):	Plastyczny system plikÛw
+Summary(pl.UTF-8):   Plastyczny system plik√≥w
 Name:		plasticfs
 Version:	1.9
 Release:	1
@@ -18,34 +18,34 @@ The Plastic File System is an LD_PRELOAD module for manipulating what
 the file system looks like for programs. This allows virtual file
 systems to exist in user space, without kernel hacks or modules.
 
-%description -l pl
-Plastic File System to wczytywany przez LD_PRELOAD modu≥ do
-manipulowania wygl±dem systemu plikÛw dla programÛw. Pozwala na
-istnienie wirtualnych systemÛw plikÛw w przestrzeni uøytkownika, bez
-øadnych modyfikacji w j±drze ani modu≥Ûw j±dra.
+%description -l pl.UTF-8
+Plastic File System to wczytywany przez LD_PRELOAD modu≈Ç do
+manipulowania wyglƒÖdem systemu plik√≥w dla program√≥w. Pozwala na
+istnienie wirtualnych system√≥w plik√≥w w przestrzeni u≈ºytkownika, bez
+≈ºadnych modyfikacji w jƒÖdrze ani modu≈Ç√≥w jƒÖdra.
 
 %package devel
 Summary:	Header files for plasticfs library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki plasticfs
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki plasticfs
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 This is the package containing the header files for plasticfs library.
 
-%description devel -l pl
-Ten pakiet zawiera pliki nag≥Ûwkowe biblioteki plasticfs.
+%description devel -l pl.UTF-8
+Ten pakiet zawiera pliki nag≈Ç√≥wkowe biblioteki plasticfs.
 
 %package static
 Summary:	Static plasticfs library
-Summary(pl):	Statyczna biblioteka plasticfs
+Summary(pl.UTF-8):   Statyczna biblioteka plasticfs
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static plasticfs library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka plasticfs.
 
 %prep
