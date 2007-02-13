@@ -1,5 +1,5 @@
 Summary:	The Plastic File System
-Summary(pl.UTF-8):   Plastyczny system plików
+Summary(pl.UTF-8):	Plastyczny system plików
 Name:		plasticfs
 Version:	1.9
 Release:	1
@@ -26,7 +26,7 @@ istnienie wirtualnych systemów plików w przestrzeni użytkownika, bez
 
 %package devel
 Summary:	Header files for plasticfs library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki plasticfs
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki plasticfs
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -38,7 +38,7 @@ Ten pakiet zawiera pliki nagłówkowe biblioteki plasticfs.
 
 %package static
 Summary:	Static plasticfs library
-Summary(pl.UTF-8):   Statyczna biblioteka plasticfs
+Summary(pl.UTF-8):	Statyczna biblioteka plasticfs
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
